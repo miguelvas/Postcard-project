@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+
+.cotenedor {
+  padding: 2rem;
+}
+
+.post {
+  height: auto;
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  gap: 1rem;
+}
+
+.entradas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.entradas input {
+  border: 2px black solid;
+  /* border-radius: 0.5rem; */
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+}
+
+.boton a {
+  background-color: rgb(216, 0, 39);
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  box-shadow: 2px 2px black;
+}
